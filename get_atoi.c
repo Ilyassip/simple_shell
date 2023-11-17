@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- *@info: struct address
  * interactive - returns true if shell is interactive mode
+ * @info: struct address
  *
  * Return: 1 if interactive mode, 0 otherwise
  */
@@ -47,8 +47,8 @@ int _isalpha(int c)
 
 int _atoi(char *s)
 {
-	unsigned int result = 0;
 	int i, sign = 1, flag = 0, output;
+	unsigned int result = 0;
 
 	for (i = 0;  s[i] != '\0' && flag != 2; i++)
 	{
